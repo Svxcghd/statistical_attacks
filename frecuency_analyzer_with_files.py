@@ -19,5 +19,6 @@ def leer_frecuencias(archivo):
     return pd.read_csv(ruta, sep='\t', names=['N-grams', 'Frequency'])
 
 if __name__ == "__main__":
-    df = leer_frecuencias("spanish_monograms.txt")
+    df = leer_frecuencias("PUT THE NAME OF YOUR TEXT HERE.txt")
+
     print(df)
