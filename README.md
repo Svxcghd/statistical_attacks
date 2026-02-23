@@ -17,5 +17,5 @@ collections (Counter)
 pandas
 
 Installation
-To run this project, make sure pandas is installed use this command in terminal to verificate that pandas is already installed
+To run this project, make sure pandas is installed use this command in terminal to verificate that pandas is already installed:
 pip install pandas
