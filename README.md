@@ -10,12 +10,8 @@ Then, it generates n-grams using a sliding window of size n.
 After that, it uses collections.Counter to compute the frequency of each n-gram.
 Finally, it creates a pandas DataFrame to display the results ordered by frequency.
 
-Technologies Used
-
-Python 3
-collections (Counter)
-pandas
-
-Installation
+Tips for the Installation
 To run this project, make sure pandas is installed use this command in terminal to verificate that pandas is already installed:
 pip install pandas
+
+Notes: for the frecuency analyzer with file its neccesary to put the text or the file in the same directory in your archives where is the frecuency analyzer with file
