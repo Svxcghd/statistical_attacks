@@ -1,4 +1,5 @@
 Statistical Attacks – N-Gram Frequency Analysis (Python)
+
 📌 Description: 
 This project implements a basic frequency analysis using n-grams in Python.  
 The objective is to divide a given text into sequences of length n (n-grams), calculate the frequency of each occurrence, and display the results in a structured table using pandas.  
