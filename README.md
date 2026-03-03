@@ -1,17 +1,63 @@
-# statistical_attacks
-This project implements a basic frequency analysis using n-grams in Python. The objective is to divide a given text into sequences of length n (n-grams) and calculate the frequency of each occurrence, displaying the results in a structured table using pandas.
-This technique is commonly used in classical cryptography, statistical text analysis, and natural language processing (NLP).
-How It Works
+Statistical Attacks – N-Gram Frequency Analysis (Python)
+📌 Description: 
+This project implements a basic frequency analysis using n-grams in Python.  
+The objective is to divide a given text into sequences of length n (n-grams), calculate the frequency of each occurrence, and display the results in a structured table using pandas.  
+This technique is commonly used in:  
+Classical cryptography  
+Statistical text analysis  
+Natural Language Processing (NLP)  
+Cryptanalysis of substitution ciphers  
 
-The program performs the following steps:
+🎯 Objective: 
+The purpose of this project is to:  
+Understand how n-gram frequency analysis works  
+Apply statistical techniques to text data  
+Simulate classical cryptanalysis approaches  
+Practice data visualization using pandas  
 
-First, it removes spaces from the input text to work with a continuous string.
-Then, it generates n-grams using a sliding window of size n.
-After that, it uses collections.Counter to compute the frequency of each n-gram.
-Finally, it creates a pandas DataFrame to display the results ordered by frequency.
+🛠 Concepts Used:  
+String manipulation  
+Sliding window technique  
+collections.Counter for frequency counting  
+Data analysis with pandas  
+Basic cryptographic analysis concepts  
 
-Tips for the Installation:
-To run this project, make sure pandas is installed use this command in terminal to verificate that pandas is already installed:
-pip install pandas
+⚙️ How It Works: 
+The program performs the following steps: 
+Removes spaces from the input text to create a continuous string.  
+Generates n-grams using a sliding window of size n.  
+Uses collections.Counter to compute the frequency of each n-gram.  
+Creates a pandas DataFrame to display the results ordered by frequency.  
 
-Notes: for the frecuency analyzer with file and ciphertext its neccesary to put the text or the file in the same directory in your archives where is the frecuency analyzer with file
+▶️ Installation: 
+Make sure you have Python 3 installed.  
+This project requires pandas.  
+To verify or install pandas, run:  
+pip install pandas  
+
+▶️ Usage: 
+Run the script with: 
+python statistical_attacks.py  
+You can modify the input text or n-gram size directly inside the script depending on your analysis needs.  
+
+📊 Example Output (Conceptual)  
+N-Gram	Frequency  
+TH	15  
+HE	12  
+ER	10  
+
+📚 What I Learned: 
+How frequency analysis supports classical cryptanalysis  
+How to implement sliding window logic in Python  
+How statistical patterns reveal language structure  
+How to organize and display results using pandas  
+
+🚀 Possible Improvements: 
+Add graphical visualization (bar charts with matplotlib)  
+Support reading directly from external files  
+Normalize frequencies (relative frequency %)  
+Support different preprocessing options (lowercase, punctuation removal)  
+Compare frequency distribution against known English letter frequencies  
+
+📝 Notes: 
+For the frequency analyzer with file and ciphertext, it is necessary to put the text or the file in the same directory where the frequency analyzer script is located.  
